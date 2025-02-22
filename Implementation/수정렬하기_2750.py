@@ -1,0 +1,5 @@
+n = int(input())
+a = list(int(input()) for _ in range(n))
+# print(a)
+a.sort()
+for elem in a: print(elem)
